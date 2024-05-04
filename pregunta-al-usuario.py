@@ -24,10 +24,8 @@ print("c. Gryffindor")
 print("d. Ravenclaw")
 respuesta = input("Ingresa la letra correspondiente a tu respuesta: ")
 
-puntaje = 0
-
 if respuesta == "c":
-    puntaje = 1.0 
+    puntaje += 1.0 
 
 print("Tu puntaje es:", puntaje) 
 
@@ -38,10 +36,8 @@ print("c. Diffindo")
 print("d. Wingardium Leviosa")
 respuesta = input("Ingresa la letra correspondiente a tu respuesta: ")
 
-puntaje = 0
-
 if respuesta == "b":
-    puntaje = 1.0
+    puntaje += 1.0
 
 print("Tu puntaje es:", puntaje)
 
@@ -52,11 +48,9 @@ print("c. Crucio")
 print("d. Avada Kedavra")
 respuesta = input("Ingresa la letra correspondiente a tu respuesta: ")
 
-puntaje = 0
-
 if respuesta == "a":
-    puntaje = 1.0 
+    puntaje += 1.0 
 elif respuesta == "d":
-    puntaje = 0.5 
+    puntaje += 0.5 
 
 print ("Tu puntaje es:", puntaje)
